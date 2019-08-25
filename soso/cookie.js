@@ -4,7 +4,7 @@
  * @param  {[type]} cname [description]
  * @return {[type]}       [description]
  */
-var server="http://119.29.189.104/index.php/";
+var server="http://127.0.0.1/php-api/index.php/";
 function getCookie(cname)
 {
   var name = cname + "=";

@@ -6,5 +6,5 @@ spring:
   elasticsearch:
     jest:
       uris:
-        - http://39.108.106.29:9200
+        - http://127.0.0.1:9200
       read-timeout: 50000

@@ -65,7 +65,7 @@ ENGINE = InnoDB;
 CREATE TABLE IF NOT EXISTS `sosospider`.`spider` (
   `spider_id` INT UNSIGNED NOT NULL AUTO_INCREMENT,
   `spider_remark` VARCHAR(128) NULL,
-  `spider_id` VARCHAR(128) NULL,
+  `spider_ip` VARCHAR(128) NULL,
   `spider_port` VARCHAR(45) NULL,
   `spider_status` VARCHAR(45) NULL COMMENT '1是空闲状态2是爬取状态',
   `spider_url` VARCHAR(45) NULL,
